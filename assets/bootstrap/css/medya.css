@@ -1,0 +1,194 @@
+@media only screen and (max-width: 375px) {
+    #header {
+        display: none;
+    }
+    .row-header {
+        display: none;
+    }
+    #news ul a {
+        font-size: 0.5em;
+    }
+    .sm-size {
+        font-size: 0.5rem;
+        position: relative;
+        bottom: 18px;
+        right: 80%;
+    }
+    #header {
+        height: 21%;
+    }
+    h5,
+    .h5,
+    h6,
+    .h6 {
+        font-size: 0.8rem !important;
+    }
+    #pills-tab a {
+        font-size: 0.6rem;
+    }
+    #me p {
+        font-size: 0.7rem;
+    }
+    footer a {
+        font-size: 0.7rem;
+    }
+    small {
+        font-size: 10px;
+    }
+    label {
+        font-size: 0.7rem;
+    }
+    .logo-login p {
+        font-size: 0.8rem;
+    }
+    #card-vorod p {
+        font-size: 0.7rem;
+    }
+    #inputState {
+        font-size: 0.7rem;
+    }
+}
+
+@media only screen and (min-width: 376px)and (max-width:575px) {
+    #header {
+        display: none;
+    }
+    .sm-size {
+        font-size: 0.5rem;
+        position: relative;
+        bottom: 18px;
+        right: -21%;
+    }
+    .row-header {
+        display: none;
+    }
+    h5,
+    .h5,
+    h6,
+    .h6 {
+        font-size: 0.95rem !important;
+    }
+    p {
+        font-size: 0.8rem;
+    }
+    label {
+        font-size: 0.8rem;
+    }
+    #news ul a {
+        font-size: 0.6em;
+    }
+    #pills-tab a {
+        font-size: 0.7rem;
+    }
+    footer a {
+        font-size: 0.7rem;
+    }
+    #row-me {
+        display: initial;
+    }
+}
+
+@media only screen and (min-width: 576px)and (max-width:775px) {
+    #header {
+        display: none;
+    }
+    .sm-size {
+        font-size: 0.7rem;
+        position: relative;
+        bottom: 15px;
+        left: 55%;
+    }
+    #header {
+        display: none;
+    }
+    .row-header {
+        display: none;
+    }
+    h5,
+    .h5,
+    h6,
+    .h6 {
+        font-size: 0.8rem !important;
+    }
+    p {
+        font-size: 0.8rem;
+    }
+    label {
+        font-size: 0.9rem;
+    }
+    #me .row p {
+        font-size: 0.7rem;
+        margin: 0px;
+    }
+    #news ul a {
+        font-size: 0.6em;
+    }
+    footer a {
+        font-size: 0.7rem;
+    }
+}
+
+@media only screen and (min-width: 776px)and (max-width:800px) {
+    #header-ris {
+        display: none;
+    }
+    .sm-size {
+        font-size: 0.75rem;
+    }
+    .col-sm-12 ul {
+        position: relative;
+        right: 21%;
+    }
+    #header {
+        height: 23%;
+    }
+    footer a,
+    p {
+        font-size: 0.75rem;
+    }
+    h5,
+    .h5,
+    h6,
+    .h6 {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (min-width: 801px)and (max-width:850px) {
+    #header-ris {
+        display: none;
+    }
+    .sm-size {
+        font-size: 0.7rem;
+    }
+    footer a {
+        font-size: 0.85rem;
+    }
+}
+
+@media only screen and (min-width: 851px)and (max-width:997px) {
+    #header-ris {
+        display: none;
+    }
+    .sm-size {
+        font-size: 0.8rem;
+    }
+    .col-sm-12 ul {
+        position: relative;
+        right: 17%;
+    }
+    .row-header {
+        position: relative;
+        top: 12px;
+        padding: 1%;
+    }
+    footer a {
+        font-size: 0.85rem;
+    }
+}
+
+@media only screen and (min-width:997px) {
+    #header-ris {
+        display: none;
+    }
+}

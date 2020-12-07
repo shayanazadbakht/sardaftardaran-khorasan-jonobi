@@ -1,0 +1,1582 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap-rtl.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/medya.css">
+    <link rel="stylesheet" href="assets/swiper.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <title>سردفترداران</title>
+</head>
+
+<body>
+    <div class="contaner-fluid">
+        <!-- header -->
+        <!-- news -->
+        <div class="row news-costum sticky-top" id="news">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-lg-9 col-md-9">
+                        <ul class=" list-inline text-right">
+                            <li class=" list-inline-item text-right ul-first">
+                                <a href="#news-content" class=" text-white">اخبار جدید</a> </li>
+                            <li class=" list-inline-item text-right ">
+                                <a href="" class=" text-white">سخنرانی جناب آقای عظیمیان نائب رئیس کانون سردفتران و دفتریاران مرکز</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-3   text-left d-none d-md-inline">
+                        <ul class="list-inline ">
+                            <li class="list-inline-item text-white"><a href="vorod.html" class="text-white "> وروداعضاء</a></li>
+                            <li class="list-inline-item text-white border-right pr-2"><a href="#" class="text-white "> شنبه 8 آذر 1398</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- news -->
+
+        <div id="header">
+            <div class="container  ">
+                <div class="row justify-content-center ">
+                    <div class="col-lg-9 col-md-8 col-sm-12">
+                        <ul class="list-inline  mt-3 ">
+                            <li class="list-inline-item"><a href="index.html" class=" text-white border-costum-left sm-size"> صفحه اصلی </a></li>
+                            <li class="list-inline-item"><a href="#news-content" class=" text-white border-costum-left sm-size"> اخبار </a></li>
+                            <li class="list-inline-item"><a href="#notifications" class=" text-white border-costum-left sm-size"> اطلاعیه ها </a></li>
+                            <li class="list-inline-item"><a href="#articles" class=" text-white border-costum-left sm-size"> مقالات</a></li>
+                            <li class="list-inline-item">
+                                <div class="dropdown">
+                                    <a class=" dropdown-toggle text-white" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                سایر خدمات
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-4 text-left">
+                        <div class="row bg-white border-rd row-header">
+                            <div class="col-9">
+                                <input type="text" class=" border-0" name="search">
+                            </div>
+                            <div class="col-3">
+                                <a href="" class="pt-2">
+                                    <i class="fas fa-search pt-1 text-success"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- res menu -->
+
+
+        <div class="modal fade" id="addModal">
+            <div class="modal-dialog modal-lg bg-primary">
+
+                <div class="modal-content">
+                    <div class="modal-header">
+
+                        <h3 class="h5">ورود اعضاء</h3>
+                        <button class=" btn btn-danger" data-dismiss="modal">بستن</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class=" container">
+                            <div class="row justify-content-center">
+                                <dic class="col-lg-7 col-md-9 col-sm-10">
+                                    <div class="card shadow-costum">
+                                        <div class="row justify-content-center ">
+                                            <img src="assets/image/logo.png" alt="" class=" p-3 d-sm-none">
+                                            <img src="assets/image/logo-footer.png" alt="" class=" p-3 d-none d-lg-inline d-md-inline d-sm-inline">
+
+                                        </div>
+                                        <div class="row logo-login justify-content-center">
+                                            <img src="assets/image/header-login.png" alt="" class="py-4">
+
+
+                                        </div>
+                                        <div class="row">
+                                            <form action="" class=" p-3 w-100">
+                                                <div class="form-group">
+                                                    <label for="email"><span class=" text-danger">*</span> نام کاربری</label>
+                                                    <input type="email" id="email" class=" form-control text-right costum-hight">
+                                                </div>
+                                                <div class="form-group ">
+                                                    <label for="password"><span class=" text-danger mt-3">*</span> رمز عبور</label>
+                                                    <input type="password" id="password" class=" form-control costum-hight text-right" placeholder="">
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <input type="checkbox">
+                                                            <small>مرا به خاطر بسپار </small>
+                                                        </div>
+                                                        <div class="col text-left">
+                                                            <a href="">
+                                                                <small>فراموشی رمز عبور</small>
+                                                            </a>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <button class="btn btn-block btn-success">
+                                                            ورود به سایت
+                                                        </button>
+                                                    </div>
+                                                    <div class="row mt-4">
+                                                        <button class="btn btn-block btn-outline-danger"><img src="assets/image/google.png" alt=""> ورود با حساب گوگل</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+
+                                    </div>
+                                </dic>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- header -->
+        <!-- ris -->
+        <!-- res menu -->
+
+        <div id="header-ris" class="header-ris">
+            <input type="checkbox" id="menu-ris-check" class="checkbox" hidden checked>
+
+            <div class="row bg-success">
+                <div class="col">
+                    <label for="menu-ris-check">
+                <a class="btn  m-2 btn-ris-menu">
+                    <i class="fas fa-bars text-white"></i>
+                </a>
+            </label>
+
+                </div>
+                <div class="col">
+                    <form action="" class="search-form w-75 ">
+                        <div class="input-group">
+                            <input type="text" class=" form-control" placeholder="جستجو...">
+                            <div class="input-group-append">
+                                <button type="submit" name="submit" class="btn btn-success"><i class="fa fa-search"></i>
+                        </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="header-ris-menu position-absolute">
+
+                <ul class="list-unstyled   ">
+                    <li class="py-2 px-1"><a href="index.html" class=" text-white "> صفحه اصلی </a></li>
+                    <li class="py-2 px-1"><a href="news.html" class=" text-white "> اخبار و اطلاعیه ها </a></li>
+                    <li class="py-2 px-1"><a href="#notifications" class=" text-white ">فرم نامه و آئین نامه ها </a></li>
+                    <li class="py-2 px-1"><a href="question.html" class=" text-white  "> سوالات متداول</a></li>
+                    <li class="py-2 px-1"> <a href="conectionwe.html" class=" text-white">  تماس  با واحد کارگزینی</a> </li>
+                </ul>
+                <div class="row justify-content-center">
+                    <a href="#" class="text-white btn btn-primary w-75" data-toggle="modal" data-target="#addModal">ورود اعضاء</a>
+
+                </div>
+            </div>
+        </div>
+        <!-- res menu -->
+        <!-- header -->
+        <!-- content -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 d-none d-md-inline">
+                    <div class="input-group mb-1">
+                        <form action="" class="search-form w-100">
+                            <div class="input-group">
+                                <input type="text" class=" form-control" placeholder="جستجو...">
+                                <div class="input-group-append">
+                                    <button type="submit" name="submit" class="btn btn-success"><i class="fa fa-search"></i>
+                            </button>
+                                </div>
+
+                        </form>
+                        </div>
+
+                    </div>
+                    <div class="card news-content my-3" style="max-width: 540px;">
+                        <a href="#" class="akhbar text-info text-decoration-none p-3">تازه ترین اخبار</a>
+                        <div class="card border-0">
+                            <div class="row no-gutters">
+                                <div class="col-md-4 py-3 px-1">
+                                    <img src="assets/image/NoPath - Copy (23).png" class="card-img" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <a href="#" class="text-secondary text-decoration-none">
+                                        <div class="card-body">
+                                            <p class="card-title text-card-left">دیدار هیات مدیره<br>کانون سردفترداران</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="card border-0">
+                            <div class="row no-gutters">
+                                <div class="col-md-4 px-1 py-2">
+                                    <img src="assets/image/NoPath - Copy (23).png" class="card-img" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <a href="#" class="text-secondary text-decoration-none">
+                                        <div class="card-body">
+                                            <p class="card-title text-card-left">حق کسب و پیشه در<br> صورت تخریب واحد</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="card border-0">
+                            <div class="row no-gutters">
+                                <div class="col-md-4 py-2 px-1">
+                                    <img src="assets/image/NoPath - Copy (23).png" class="card-img" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <a href="#" class="text-secondary text-decoration-none">
+                                        <div class="card-body">
+                                            <p class="card-title text-card-left">دیدار هیات مدیره<br>کانون سر دفتران</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="card border-0">
+                            <div class="row no-gutters">
+                                <div class="col-md-4 py-2 px-1">
+                                    <img src="assets/image/NoPath - Copy (23).png" class="card-img" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <a href="#" class="text-secondary text-decoration-none">
+                                        <div class="card-body">
+                                            <p class="card-title text-card-left">دیدار هیات مدیره<br>کانون سردفترداران</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="card border-0">
+                            <div class="row no-gutters">
+                                <div class="col-md-4 py-2 px-1">
+                                    <img src="assets/image/NoPath - Copy (23).png" class="card-img" alt="...">
+                                </div>
+                                <div class="col-md-8 ">
+                                    <a href="#" class="text-secondary text-decoration-none">
+                                        <div class="card-body">
+                                            <p class="card-title text-card-left">حق کسب و پیشه در<br> صورت تخریب واحد</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card " id="archive">
+                        <a href="#" class="text-info text-decoration-none p-3">آرشیو اخبار</a>
+                        <div class="accordion" id="accordionExample">
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <h2 class="mb-0 h6">
+                                        <button class="btn btn-link btn-block text-right text-decoration-none text-date" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <img src="image/drop.png" alt="" class="">
+                                سال 1389
+                            </button>
+                                    </h2>
+                                </div>
+
+                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                -فروردین
+                            </a>
+                                        <hr>
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                _اردیبهشت
+                            </a>
+                                        <hr>
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                _خرداد
+                            </a>
+                                        <hr>
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                _تیر
+                            </a>
+                                        <hr>
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                _مرداد
+                            </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                    <h2 class="mb-0 h6">
+                                        <button class="btn btn-link btn-block text-right collapsed text-decoration-none text-date" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                سال 1388
+                            </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                -فروردین
+                            </a>
+                                        <hr>
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                _اردیبهشت
+                            </a>
+                                        <hr>
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                _خرداد
+                            </a>
+                                        <hr>
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                _تیر
+                            </a>
+                                        <hr>
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                _مرداد
+                            </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <h2 class="mb-0 h6 ">
+                                        <button class="btn btn-link btn-block text-right collapsed text-decoration-none text-date" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <img src="image/drop.png" alt="" class="">
+                                سال 1387
+                            </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                -فروردین
+                            </a>
+                                        <hr>
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                _اردیبهشت
+                            </a>
+                                        <hr>
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                _خرداد
+                            </a>
+                                        <hr>
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                _تیر
+                            </a>
+                                        <hr>
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                _مرداد
+                            </a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <div class="card mt-3" id="archive">
+                        <a href="#" class="text-info text-decoration-none p-3">آرشیو اطلاعیه ها</a>
+                        <div class="accordion" id="accordionExample">
+                            <div class="card">
+                                <div class="card-header" id="headingSix">
+                                    <h2 class="mb-0 h6">
+                                        <button class="btn btn-link btn-block text-right text-decoration-none text-date" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                                <img src="image/drop.png" alt="" class="">
+                                سال 1389
+                            </button>
+                                    </h2>
+                                </div>
+
+                                <div id="collapseSix" class="collapse show" aria-labelledby="headingSix" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                -فروردین
+                            </a>
+                                        <hr>
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                _اردیبهشت
+                            </a>
+                                        <hr>
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                _خرداد
+                            </a>
+                                        <hr>
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                _تیر
+                            </a>
+                                        <hr>
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                _مرداد
+                            </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingSeven">
+                                    <h2 class="mb-0 h6">
+                                        <button class="btn btn-link btn-block text-right collapsed text-decoration-none text-date" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                <img src="image/drop.png" alt="" class="">
+                                سال 1388
+                            </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                -فروردین
+                            </a>
+                                        <hr>
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                _اردیبهشت
+                            </a>
+                                        <hr>
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                _خرداد
+                            </a>
+                                        <hr>
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                _تیر
+                            </a>
+                                        <hr>
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                _مرداد
+                            </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingEight">
+                                    <h2 class="mb-0 h6">
+                                        <button class="btn btn-link btn-block text-right collapsed text-decoration-none  text-date" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                <img src="image/drop.png" alt="" class="">
+                                سال 1387
+                            </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                -فروردین
+                            </a>
+                                        <hr>
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                _اردیبهشت
+                            </a>
+                                        <hr>
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                _خرداد
+                            </a>
+                                        <hr>
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                _تیر
+                            </a>
+                                        <hr>
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                _مرداد
+                            </a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <div class="card mt-3" id="archive">
+                        <a href="#" class="text-info text-decoration-none p-3">آرشیو مقالات</a>
+                        <div class="accordion" id="accordionExample">
+                            <div class="card">
+                                <div class="card-header" id="headingEleven">
+                                    <h2 class="mb-0 h6">
+                                        <button class="btn btn-link btn-block text-right text-decoration-none text-date" type="button" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="true" aria-controls="collapseEleven">
+                                <img src="image/drop.png" alt="" class="">
+                                سال 1389
+                            </button>
+                                    </h2>
+                                </div>
+
+                                <div id="collapseEleven" class="collapse show" aria-labelledby="headingEleven" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                -فروردین
+                            </a>
+                                        <hr>
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                _اردیبهشت
+                            </a>
+                                        <hr>
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                _خرداد
+                            </a>
+                                        <hr>
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                _تیر
+                            </a>
+                                        <hr>
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                _مرداد
+                            </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingTwelve">
+                                    <h2 class="mb-0 h6">
+                                        <button class="btn btn-link btn-block text-right collapsed text-decoration-none text-date" type="button" data-toggle="collapse" data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+                                <img src="image/drop.png" alt="" class="">
+                                سال 1388
+                            </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                -فروردین
+                            </a>
+                                        <hr>
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                _اردیبهشت
+                            </a>
+                                        <hr>
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                _خرداد
+                            </a>
+                                        <hr>
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                _تیر
+                            </a>
+                                        <hr>
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                _مرداد
+                            </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingThirteen">
+                                    <h2 class="mb-0 h6">
+                                        <button class="btn btn-link btn-block text-right collapsed text-decoration-none text-date" type="button" data-toggle="collapse" data-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+                                <img src="image/drop.png" alt="" class="">
+                                سال 1387
+                            </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseThirteen" class="collapse" aria-labelledby="headingThirteen" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                -فروردین
+                            </a>
+                                        <hr>
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                _اردیبهشت
+                            </a>
+                                        <hr>
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                _خرداد
+                            </a>
+                                        <hr>
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                _تیر
+                            </a>
+                                        <hr>
+                                        <a class="text-decoration-none text-secondary text-date" href="#">
+                                _مرداد
+                            </a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-9 col-md-8">
+                    <div class="card">
+
+                        <img src="assets/image/NoPath - Copy (37).png" alt="" class="w-100 h-100 ">
+                        <br>
+                        <div class="row hakemiat-style-all">
+                            <div class="col-9">
+                                <h6 class="text-gray pr-1 pb-1 title-hakemiat"><img src="assets/image/Path 27.png" alt=""> حاکمیت با قانون است نه با راهور یا دفترخانه ها </h6>
+                            </div>
+                            <div class="col-3">
+                                <img src="image/bookmark.png" alt="" class="pr-5 icn1-title-hakemiat">
+
+                                <img src="image/Component%2032%20–%201.png" alt="" class="pr-2 icn2-title-hakemiat">
+                            </div>
+                        </div>
+                        <br>
+
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="row  ">
+                                    <p class="text-secondary ">
+                                        <i class="far fa-calendar-alt"></i> 26 اردیبهشت 1398
+                                    </p>
+                                    &nbsp;
+                                    <p class="text-secondary ">
+                                        <img src="assets/image/021.png" alt="" class=""> 23
+                                    </p>
+                                    &nbsp;
+                                    <p class="text-secondary ">
+                                        <img src="assets/image/0000000.png" alt="" class=""> 18
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <p class="text-secondary text-description pr-2 pl-2 text-justify p-3">
+                            از سه سال پیش تاکنون و در پی تصویب «ماده29 قانون رسیدگی به تخلفات رانندگی» نقل و انتقال خودرو در مجلس شورای اسلامی، مردم با این سوال روبرو هستند که بالاخره هنگام خرید اتوموبیل باید آن را در دفترخانه ها به ثبت برسانند و یا این که برگ سبزی که در مراکز شماره
+                            گذاری توسط راهور ارائه داده می شود می تواند برای آنها حکم سند رسمی را داشته باشد؟ <br> در این میان هر یک از طرفین دعوی یعنی راهور و کانون سردفتران ایران ادله های خود را دارند. کانون سردفتران به مواد
+                            قانونی مبنی بر لزوم ثبت سند در دفترخانه ها به منظور اطلاق لفظ سند رسمی به آن و نیز لزوم ثبت بیع(معامله) از هر قسم در دفاتر اسناد رسمی تاکید می کند و راهور نیز با تکیه بر این عبارت قانونی که می گوید «اسنادی که نزد ماموران رسمی
+                            در حدود صلاحیت آنها و طبق مقررات قانونی تنظیم شده باشد رسمی محسوب می‌شوند» می گوید: خودرو از اموال منقول است و نیازی به ثبت آن در دفترخانه نیست. در قانون سند به دو قسم عادی و رسمی تقسیم شده است. قانون گذار اعتبار خاصی برای
+                            سند عادی قائل شده است اما سندی رسمی است .که صرفا توسط سردفتران و در دفاتر اسناد رسمی با تشریفات خاص قانونی تنظیم شود.بنابراین اگر مدعی رعایت قانون هستیم تنظیم اسناد به طور کل باید در دفترخانه ها انجام شود
+                        </p>
+                        <br>
+
+                        <div class="card bg-light m-3">
+                            <div class="col-12">
+                                <div class="row py-2">
+                                    <p class="text-dark ">
+                                        برچسب ها:
+                                    </p>
+                                    &nbsp;&nbsp;
+                                    <p class="text-secondary ">
+                                        #راهور
+                                    </p>
+                                    &nbsp; &nbsp;
+                                    <p class="text-secondary ">
+                                        #حاکمیت با قانون
+                                    </p>
+                                    &nbsp; &nbsp;
+                                    <p class="text-secondary ">
+                                        #دفترخانه
+                                    </p>
+                                    &nbsp; &nbsp;
+                                    <p class="text-secondary ">
+                                        #کانون سردفترداران و دفتریاران
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <form>
+                            <div class="row pr-1">
+                                <div class="col-12">
+                                    <h6 class="text-gray py-2"><img src="assets/image/Path 27.png" alt=""> ثبت نظر </h6>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="col-12 pr-3 pl-3">
+                                    <div class="form-group form-nazar-style">
+                                        <textarea class="form-control bg-light textarea" placeholder="متن پیام خودرا وارد کنید" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="col pr-3 form-nazar-style">
+                                    <input type="text" class="form-control text-input bg-light " placeholder="نام و نام خانوادگی">
+                                </div>
+                                <div class="col pl-3 form-nazar-style">
+                                    <input type="email" class="form-control text-input text-right bg-light " placeholder="ایمیل">
+                                </div>
+                            </div>
+                        </form>
+
+                        <div class="row">
+                            <div class="col-12 pt-3 pl-4 form-nazar-style">
+                                <button type="button" class="btn btn-success btn-ersl-nzr float-left">ارسال نظر</button>
+                            </div>
+                        </div>
+
+                        <div class="row pr-2">
+                            <div class="col-12">
+                                <h6 class="text-gray text-nazarat"><img src="assets/image/Path 27.png" alt=""> نظرات کاربران </h6>
+                            </div>
+                        </div>
+                        <hr class="text-nazarat">
+
+                        <div class="row">
+                            <div class="col-6">
+                                <p class=" text-secondary pr-2 text1-comment1">رضا احمدی</p>
+                            </div>
+                            <div class="col-6">
+                                <div class="row float-left pl-4 text2-comment1">
+                                    <a href="#" class="text-info text-decoration-none">پاسخ</a> &nbsp;&nbsp;
+                                    <p class="text-secondary">|1398/06/11-12:08</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row pt-4">
+                            <div class="col-12">
+                                <h6 class="text-secondary pr-3 text3-comment1">
+                                    خیلی خوب بود ممنون از لطفتون.
+                                </h6>
+                            </div>
+                        </div>
+
+                        <div class="card mr-2 ml-2 card-comment1">
+                            <div class="row pt-2">
+                                <div class="col-6">
+                                    <p class="pr-2 text-secondary text1-comment2">مصطفی رمضانی</p>
+                                </div>
+                                <div class="col-6">
+                                    <div class="row float-left pl-4 text2-comment2">
+                                        <a href="#" class="text-info text-decoration-none">پاسخ</a> &nbsp;&nbsp;
+                                        <p class="text-secondary">|1398/06/11-12:08</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <br>
+                            <div class="row pb-1">
+                                <div class="col-12">
+                                    <h6 class="text-secondary pr-4 text3-comment2">
+                                        سلام ممنونم از اخبار همیشه به روزتون
+                                    </h6>
+                                </div>
+                            </div>
+
+                            <div class="card mr-4 ml-2 mt-3 pt-2 bg-light card-comment2">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <p class="pr-2 text-secondary text1-comment3">زهرا عزیزی</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="row float-left pl-4 text2-comment3">
+                                            <a href="#" class="text-info text-decoration-none">پاسخ</a> &nbsp;&nbsp;
+                                            <p class="text-secondary">|1398/06/11-12:08</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h6 class="text-secondary pr-3 text4-comment3">
+                                            خواهش میکنم.موجب خوشحالی ماست
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-6">
+                                    <p class="pr-4 pt-3 text-secondary text1-comment4">مصطفی رمضانی</p>
+                                </div>
+                                <div class="col-6">
+                                    <div class="row float-left pl-4 pt-3 text2-comment4">
+                                        <a href="#" class="text-info text-decoration-none">پاسخ</a> &nbsp;&nbsp;
+                                        <p class="text-secondary">|1398/06/11-12:08</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <br>
+                            <div class="row">
+                                <div class="col-12">
+                                    <h6 class="text-secondary pr-4 text3-comment4">
+                                        متن پاسخ کاربر در سطح لول سوم در این بخش نوشته می شود
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-6">
+                                <a href="#" class="text-secondary float-right pr-3 pt-2 mb-lg-4 back-page2">صفحه ی قبلی</a>
+                            </div>
+                            <div class="col-6">
+                                <a href="#" class="text-secondary float-left pl-3  pt-2 mb-lg-4 next-page2">صفحه ی بعدی</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <div class="container slider pt-5">
+            <div class="row">
+                <div class="col-6">
+                    <h6 class=" "><img src="assets/image/Path 27.png" alt=""> اخبار </h6>
+                </div>
+                <div class="col-6  text-left">
+                    <span><a href="" class=" bg-hover h6 "> مشاهده همه</a></span>
+
+                </div>
+            </div>
+
+            <div class="col-lg-12 col-sm-12">
+                <div class="swiper-container p-1" id="myswiper">
+
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="">
+                                <div class="card border-0">
+                                    <img src="assets/image/row1.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title font-color">کانون سردفتران و دفتریاران آذربایجان شرقی </h5>
+                                        <p class="card-text"><small class="text-muted"><i class="far fa-calendar-alt pl-1"></i>‏26  اردیبهشت 1398</small></p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <div class="card border-0">
+                                    <img src="assets/image/row2.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title font-color">کانون سردفتران و دفتریاران آذربایجان شرقی </h5>
+
+                                        <p class="card-text"><small class="text-muted"><i class="far fa-calendar-alt pl-1"></i>‏26  اردیبهشت 1398</small></p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <div class="card border-0">
+                                    <img src="assets/image/row3.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title font-color"> کانون سردفتران و دفتریاران آذربایجان شرقی </h5>
+                                        <p class="card-text"><small class="text-muted"><i class="far fa-calendar-alt pl-1"></i>‏26  اردیبهشت 1398</small></p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+
+            </div>
+
+
+            <div class="card d-md-none" id="archive">
+                <a href="#" class="text-info text-decoration-none p-3">آرشیو اخبار</a>
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h2 class="mb-0 h6">
+                                <button class="btn btn-link btn-block text-right text-decoration-none" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <img src="image/drop.png" alt="" class="">
+                        سال 1389
+                    </button>
+                            </h2>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <a class="text-decoration-none text-secondary " href="#">
+                        -فروردین
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _اردیبهشت
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _خرداد
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _تیر
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _مرداد
+                    </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0 h6">
+                                <button class="btn btn-link btn-block text-right collapsed text-decoration-none" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        سال 1388
+                    </button>
+                            </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <a class="text-decoration-none text-secondary " href="#">
+                        -فروردین
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _اردیبهشت
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _خرداد
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _تیر
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _مرداد
+                    </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h2 class="mb-0 h6">
+                                <button class="btn btn-link btn-block text-right collapsed text-decoration-none" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <img src="image/drop.png" alt="" class="">
+                        سال 1387
+                    </button>
+                            </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <a class="text-decoration-none text-secondary " href="#">
+                        -فروردین
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _اردیبهشت
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _خرداد
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _تیر
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _مرداد
+                    </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingFour">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-right collapsed text-decoration-none" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <img src="image/drop.png" alt="" class="">
+                        سال 1386
+                    </button>
+                            </h2>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <a class="text-decoration-none text-secondary " href="#">
+                        -فروردین
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _اردیبهشت
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _خرداد
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _تیر
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _مرداد
+                    </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingFive">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-right collapsed text-decoration-none" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <img src="image/drop.png" alt="" class="">
+                        سال 1385
+                    </button>
+                            </h2>
+                        </div>
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <a class="text-decoration-none text-secondary " href="#">
+                        -فروردین
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _اردیبهشت
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _خرداد
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _تیر
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _مرداد
+                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mt-3 d-md-none d-sm-inline" id="archive">
+                <a href="#" class="text-info text-decoration-none p-3">آرشیو اطلاعیه ها</a>
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                        <div class="card-header" id="headingSix">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-right text-decoration-none" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                        <img src="image/drop.png" alt="" class="">
+                        سال 1389
+                    </button>
+                            </h2>
+                        </div>
+
+                        <div id="collapseSix" class="collapse show" aria-labelledby="headingSix" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <a class="text-decoration-none text-secondary " href="#">
+                        -فروردین
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _اردیبهشت
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _خرداد
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _تیر
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _مرداد
+                    </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingSeven">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-right collapsed text-decoration-none" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                        <img src="image/drop.png" alt="" class="">
+                        سال 1388
+                    </button>
+                            </h2>
+                        </div>
+                        <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <a class="text-decoration-none text-secondary " href="#">
+                        -فروردین
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _اردیبهشت
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _خرداد
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _تیر
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _مرداد
+                    </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingEight">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-right collapsed text-decoration-none" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                        <img src="image/drop.png" alt="" class="">
+                        سال 1387
+                    </button>
+                            </h2>
+                        </div>
+                        <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <a class="text-decoration-none text-secondary " href="#">
+                        -فروردین
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _اردیبهشت
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _خرداد
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _تیر
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _مرداد
+                    </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingNine">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-right collapsed text-decoration-none" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                        <img src="image/drop.png" alt="" class="">
+                        سال 1386
+                    </button>
+                            </h2>
+                        </div>
+                        <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <a class="text-decoration-none text-secondary " href="#">
+                        -فروردین
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _اردیبهشت
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _خرداد
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _تیر
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _مرداد
+                    </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingTen">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-right collapsed text-decoration-none" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                        <img src="image/drop.png" alt="" class="">
+                        سال 1385
+                    </button>
+                            </h2>
+                        </div>
+                        <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <a class="text-decoration-none text-secondary " href="#">
+                        -فروردین
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _اردیبهشت
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _خرداد
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _تیر
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _مرداد
+                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mt-3 d-md-none d-sm-inline" id="archive">
+                <a href="#" class="text-info text-decoration-none p-3">آرشیو مقالات</a>
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                        <div class="card-header" id="headingEleven">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-right text-decoration-none" type="button" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="true" aria-controls="collapseEleven">
+                        <img src="image/drop.png" alt="" class="">
+                        سال 1389
+                    </button>
+                            </h2>
+                        </div>
+
+                        <div id="collapseEleven" class="collapse show" aria-labelledby="headingEleven" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <a class="text-decoration-none text-secondary " href="#">
+                        -فروردین
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _اردیبهشت
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _خرداد
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _تیر
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _مرداد
+                    </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwelve">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-right collapsed text-decoration-none" type="button" data-toggle="collapse" data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+                        <img src="image/drop.png" alt="" class="">
+                        سال 1388
+                    </button>
+                            </h2>
+                        </div>
+                        <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <a class="text-decoration-none text-secondary " href="#">
+                        -فروردین
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _اردیبهشت
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _خرداد
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _تیر
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _مرداد
+                    </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThirteen">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-right collapsed text-decoration-none" type="button" data-toggle="collapse" data-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+                        <img src="image/drop.png" alt="" class="">
+                        سال 1387
+                    </button>
+                            </h2>
+                        </div>
+                        <div id="collapseThirteen" class="collapse" aria-labelledby="headingThirteen" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <a class="text-decoration-none text-secondary " href="#">
+                        -فروردین
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _اردیبهشت
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _خرداد
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _تیر
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _مرداد
+                    </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingFourteen">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-right collapsed text-decoration-none" type="button" data-toggle="collapse" data-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+                        <img src="image/drop.png" alt="" class="">
+                        سال 1386
+                    </button>
+                            </h2>
+                        </div>
+                        <div id="collapseFourteen" class="collapse" aria-labelledby="headingFourteen" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <a class="text-decoration-none text-secondary " href="#">
+                        -فروردین
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _اردیبهشت
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _خرداد
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _تیر
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _مرداد
+                    </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingFifteen">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-right collapsed text-decoration-none" type="button" data-toggle="collapse" data-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
+                        <img src="image/drop.png" alt="" class="">
+                        سال 1385
+                    </button>
+                            </h2>
+                        </div>
+                        <div id="collapseFifteen" class="collapse" aria-labelledby="headingFifteen" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <a class="text-decoration-none text-secondary " href="#">
+                        -فروردین
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _اردیبهشت
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _خرداد
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _تیر
+                    </a>
+                                <hr>
+                                <a class="text-decoration-none text-secondary " href="#">
+                        _مرداد
+                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- content -->
+        <!-- Footer -->
+        <footer class="page-footer font-small indigo back-footer mt-4">
+
+            <!-- Footer Links -->
+            <div class="container text-center text-md-right ">
+
+                <!-- Grid row -->
+                <div class="row">
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 mx-auto">
+
+                        <!-- Links -->
+
+
+                        <ul class="list-unstyled pt-4 text-md-center text-sm-center">
+                            <li>
+                                <img src="assets/image/logo-footer.png" alt="">
+                            </li>
+                            <li class=" p-footer">
+                                <p class="text-costum-green">کانون سردفتر داران و دفتریاران خراسان جنوبی</p>
+                            </li>
+                            <li>
+                                <ul class=" list-inline mt-3 mb-3" id="net-so">
+                                    <li class=" list-inline-item  p-1 "><a href="#"><i class="fab fa-twitter-square "></i></a> </li>
+                                    <li class=" list-inline-item  p-1  pr-0"><a href="#"><i class="fab fa-facebook-square "></i></a></li>
+                                    <li class=" list-inline-item  p-1 "><a href="#"><i class="fab fa-google-plus-square "></i></a></li>
+                                    <li class=" list-inline-item  p-1 "><a href="#"><i class="fab fa-telegram"></i></a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                    <!-- Grid column -->
+
+
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-6 pt-4">
+
+                        <!-- Links -->
+                        <h5 class="H6  mt-3 mb-4 text-white"><img src="assets/image/icon-green.png" alt="" class="green"> لینک های اصلی</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="index.html" class=" text-white">صفحه اصلی </a>
+                            </li>
+                            <li>
+                                <a href="news.html" class=" text-white">اخبار</a>
+                            </li>
+                            <li>
+                                <a href="#notifications" class=" text-white">اطلاعیه ها</a>
+                            </li>
+                            <li>
+                                <a href="#article" class=" text-white">مقالات</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- Grid column -->
+
+
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-6 mx-auto pt-4">
+
+                        <!-- Links -->
+                        <h5 class="H6  mt-3 mb-4 text-white"><img src="assets/image/icon-green.png" class=" pl-1 green" alt="">دسترسی سریع</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="register.html" class="text-white">ورود|ثبت نام </a>
+                            </li>
+                            <li>
+                                <a href="qouiztion.html" class="text-white">سوالات متداول</a>
+                            </li>
+                            <li>
+                                <a href="gllry.html" class="text-white"> گالری تصاویر</a>
+                            </li>
+                            <li>
+                                <a href="aboutus.html" class="text-white">درباره ما</a>
+                            </li>
+                            <li>
+                                <a href="ertebatbama.html" class="text-white">تماس با ما</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- Grid column -->
+
+
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-6 mx-auto pt-4 d-none d-lg-inline">
+
+                        <!-- Links -->
+                        <h5 class="H6  mt-3 mb-4 text-white "><img src="assets/image/icon-green.png " class=" pl-1 green" alt="">اطلاعات تماس</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="ertebatbama.html" class=" text-white"><i class="fas fa-phone-volume text-success pl-1"></i> تلفن:056-35473576 </a>
+                            </li>
+                            <li>
+                                <a href="ertebatbama.html" class=" text-white"><i class="far fa-envelope text-success pl-1"></i> ایمیل:azadbakht@gmail.com</a>
+                            </li>
+                            <li>
+                                <a href="ertebatbama.html" class=" text-white"><i class="fas fa-map-signs text-success pl-1"></i>  آدرس : خراسان جنوبی ـ بیرجند ـ انتهای بلوار دانشگاه  پردیس شوکت آباد ـ سازمان مرکزی دانشگاه بیرجند</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row -->
+
+            </div>
+            <!-- Footer Links -->
+
+            <!-- Copyright -->
+            <div class="footer-copyright text-right py-3">
+                <div class=" container">
+                    <a href="" class=" text-white disabled">کلیه حقوق سایت متعلق مربوط به کانون سردفتران و دفتریاران می باشد | طراحی شده توسط دانشجویار </a>
+
+                </div>
+            </div>
+            <!-- Copyright -->
+
+        </footer>
+        <!-- Footer -->
+    </div>
+    <script src="assets/swiper.js"></script>
+    <script>
+        var swiper = new Swiper('#myswiper', {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            loop: true,
+
+            breakpoints: {
+
+                // when window width is >= 320px
+                320: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                },
+                // when window width is >= 480px
+                480: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                },
+                // when window width is >= 640px
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 40
+                },
+                997: {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                }
+
+            }
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,477 @@
+/* font */
+
+@font-face {
+    font-family: 'iransans';
+    src: url('../iransans/IRANSansWeb.eot');
+    src: url('../iransans/IRANSansWeb.woff') format('woff');
+    src: url('../iransans/IRANSansWeb.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'iransans';
+    direction: rtl;
+}
+
+
+/* font */
+
+* {
+    direction: rtl;
+}
+
+a {
+    text-decoration: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+input {
+    font-size: 12px !important;
+}
+
+
+/* hover */
+
+a:hover {
+    text-decoration: none;
+}
+
+.bg-hover {
+    transition: all 0.4s;
+    color: rgb(37, 37, 37);
+    padding: 5px 12px;
+    border-radius: 5px;
+}
+
+.bg-hover:hover {
+    background-color: #01C664;
+    color: white;
+}
+
+.card-shadow .card {
+    transition: all 0.3s;
+}
+
+.card-shadow .card:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transform: translateY(-8px);
+}
+
+#me .row {
+    align-items: center;
+}
+
+#me .row:hover {
+    transform: translate(-8px, 0);
+}
+
+#uuu {
+    position: relative;
+}
+
+#uuu .card {
+    transition: all 0.4s;
+    position: relative;
+    z-index: 1000;
+}
+
+#uuu .card:hover img {
+    transform: translate(0, -10px);
+}
+
+#article .card:hover img {
+    position: relative;
+    transition: 0.8s ease-in;
+    bottom: 6px;
+}
+
+#margin-costum .row span {
+    transition: all 0.4s;
+    z-index: 100;
+}
+
+#margin-costum .row img {
+    transition: all 0.4s;
+}
+
+#margin-costum .row:hover img {
+    opacity: 0.4;
+}
+
+#margin-costum .row:hover span {
+    display: inline!important;
+}
+
+#margin-costum .row span:hover {
+    background-color: #0088cc96;
+    color: white;
+}
+
+.custom-span-for-hover {
+    display: none;
+    position: absolute;
+    background: white;
+    margin: 10;
+    padding: 21%;
+    left: 11%;
+    opacity: 0.8;
+    border: 3px solid;
+}
+
+
+/* #margin-costum .row img:hover span {
+    display: initial;
+} */
+
+
+/* hover */
+
+
+/* costum class */
+
+.border-rd {
+    border-radius: 5px;
+}
+
+.back-costum-blue {
+    background: #5FB1FF;
+}
+
+.border-costum-bottom {
+    border-bottom: 2px dashed #e2e2e2;
+}
+
+.font-color {
+    color: #404040;
+    line-height: 35px;
+}
+
+.costum-hight {
+    height: 50px;
+    background-color: #FCFCFC;
+    font-size: 14px;
+}
+
+.costum-hight-2 {
+    height: 200px;
+    background-color: #FCFCFC;
+    font-size: 14px;
+}
+
+.border-costum-right {
+    border-right: 1px solid #01C664;
+    font-weight: 800;
+}
+
+.news-costum .row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+#margin-costum .row {
+    margin: 4px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+/*costumclass*/
+
+
+/* news top back black */
+
+#news {
+    background: #000000;
+}
+
+#news .row:first-child {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+#news ul {
+    margin: 0;
+}
+
+#news ul li {
+    padding: 10px 4px 10px 4px;
+}
+
+#news .ul-first:first-child {
+    background: #F23F7C;
+}
+
+#news ul a {
+    font-size: 0.8em;
+}
+
+
+/* news top back black */
+
+
+/* header */
+
+.header-ris-menu {
+    position: absolute;
+    z-index: 100;
+    list-style: none;
+    width: 70vw;
+    height: 85vh;
+    background-color: #059b14d0;
+    transition: all 0.3s;
+}
+
+#header-ris form {
+    position: relative;
+    top: 8px;
+}
+
+.header-ris-menu ul {
+    padding: 5vh 10vw;
+}
+
+.btn-ris-menu {
+    position: relative;
+    right: 0;
+    z-index: 10;
+}
+
+.checkbox:checked~.header-ris-menu {
+    transform: translateX(100%);
+}
+
+#addModal {
+    background-color: rgba(21, 52, 73, 0.733);
+}
+
+#header {
+    background: url('../image/header.png');
+    width: 100%;
+    height: 30%;
+    background-repeat: round;
+    background-size: 100%;
+}
+
+
+/* header */
+
+.row-header {
+    position: relative;
+    top: 12px;
+    padding: 3%;
+}
+
+.col-sm-12 ul {
+    position: relative;
+    right: 18%;
+}
+
+
+/* header */
+
+.emam-image {
+    position: relative;
+    left: 45%;
+}
+
+.z-index {
+    z-index: 100;
+}
+
+.border-costum-left {
+    border-left: 1px solid rgba(255, 255, 255, 0.397);
+    padding-left: 10px;
+}
+
+
+/* header */
+
+.carousel-costum-text {
+    position: relative;
+}
+
+.back-blue {
+    background: url('../image/backblue.png');
+    background-repeat: round;
+    border-right: 4px;
+}
+
+#me .row {
+    position: relative;
+    margin: 0 0 7px 0;
+    transition: all 0.4s;
+}
+
+.card-body {
+    padding: 0.8rem 0.15rem 0 0 !important;
+}
+
+
+/* footer */
+
+.back-footer {
+    background: #171717;
+}
+
+.footer-copyright {
+    background: #0C700A;
+}
+
+.text-costum-green {
+    color: #0C700A;
+}
+
+footer ul p {
+    width: 80%;
+}
+
+footer a {
+    line-height: 30px;
+    font-size: 0.9em;
+}
+
+footer .green {
+    box-shadow: 2px 1px 4px green;
+}
+
+.p-footer {
+    text-align: -webkit-center;
+}
+
+#net-so a {
+    font-size: 1.6rem;
+    color: #ffffff !important;
+}
+
+#net-so a .fa-twitter-square:hover {
+    color: #33CCFF;
+}
+
+#net-so a .fa-facebook-square:hover {
+    color: #4267B2;
+}
+
+#net-so a .fa-google-plus-square:hover {
+    color: #DF4B38;
+}
+
+#net-so a .fa-telegram:hover {
+    color: #0088CC;
+}
+
+#net-so-us a {
+    font-size: 1.6rem;
+    color: #5e5858 !important;
+}
+
+#net-so-us a .fa-twitter-square:hover {
+    color: #33CCFF;
+}
+
+#net-so-us a .fa-facebook-square:hover {
+    color: #4267B2;
+}
+
+#net-so-us a .fa-google-plus-square:hover {
+    color: #DF4B38;
+}
+
+#net-so-us a .fa-telegram:hover {
+    color: #0088CC;
+}
+
+#card-vorod {
+    width: 65%;
+}
+
+
+/* footer */
+
+#custom-footer span {
+    position: absolute;
+    bottom: 0px;
+    padding: 14px;
+    background: rgba(255, 255, 255, 0.473);
+    color: #444343;
+}
+
+
+/* tamas bama */
+
+#card-tamas {
+    width: 65%;
+}
+
+#exampleFormControlTextarea1 {
+    background-color: #FCFCFC;
+}
+
+.shadow-costum {
+    box-shadow: 0px 0px 5px rgb(224, 222, 222);
+}
+
+.costum-hover .card:hover .img {
+    opacity: 0.3;
+    transition: 0.35s ease-in-out;
+}
+
+.costum-hover .card:hover {
+    cursor: pointer;
+}
+
+.costum-hover .card:hover .custom-card-cover {
+    display: flex;
+}
+
+.backme:hover {
+    background-color: white;
+    opacity: 1;
+}
+
+.p-404 {
+    width: 51%;
+}
+
+
+/* gallery */
+
+.parent-custom-card-cover .child {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.custom-card-cover {
+    position: absolute;
+    width: 90%;
+    margin: 5% 5%;
+    height: 86%;
+    border: 4px solid rgb(27, 27, 214);
+    display: flex;
+    align-items: center;
+    transition: all 0.9s;
+    display: none;
+}
+
+.custom-card-cover span {
+    display: flex;
+    text-align: center;
+    padding: 10px;
+}
+
+.text-carusel {
+    position: absolute;
+    bottom: 0px;
+    padding: 10px;
+    background-color: #44434377;
+    width: 100%;
+    color: white;
+}
